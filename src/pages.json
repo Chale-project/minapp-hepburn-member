@@ -1,0 +1,209 @@
+{
+	"pages": [
+		{
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "赫本酒吧武汉",
+				"enablePullDownRefresh": true,
+				"usingComponents": {
+					"van-cell": "/wxcomponents/vant/cell/index",
+					"van-cell-group": "/wxcomponents/vant/cell-group/index"
+				}
+			}
+		},
+		{
+			"path": "pages/app/login/login",
+			"style": {
+				"navigationBarTitleText": "登录-赫本酒吧"
+			}
+		},
+		{
+			"path": "pages/app/home/home",
+			"style": {
+				"navigationBarTitleText": "赫本酒吧武汉"
+			}
+		}
+	],
+	"subPackages": [{
+			"root": "pages/Manager",
+			"pages": [{
+					"path": "staff/staff",
+					"style": {
+						"navigationBarTitleText": "扫码收款-赫本酒吧",
+						"usingComponents": {
+							"van-popup": "/wxcomponents/vant/popup/index",
+							"van-picker": "/wxcomponents/vant/picker/index"
+						}
+					}
+				},
+				{
+					"path": "consumption/consumption",
+					"style": {
+						"navigationBarTitleText": "消费清单-赫本酒吧"
+					}
+				},
+				{
+					"path": "vip/vip",
+					"style": {
+						"navigationBarTitleText": "会员清单-赫本酒吧"
+					}
+				},
+				{
+					"path": "main/main",
+					"style": {
+						"navigationBarTitleText": "赫本"
+					}
+				}
+			]
+		},
+		{
+			"root": "pages/Customer",
+			"pages": [{
+					"path": "profile/profile",
+					"style": {
+						"navigationBarTitleText": "个人资料-赫本酒吧",
+						"usingComponents": {
+							"van-area": "/wxcomponents/vant/area/index",
+							"van-popup": "/wxcomponents/vant/popup/index",
+							"van-field": "/wxcomponents/vant/field/index",
+							"van-cell": "/wxcomponents/vant/cell/index",
+							"van-cell-group": "/wxcomponents/vant/cell-group/index",
+							"van-datetime-picker": "/wxcomponents/vant/datetime-picker/index"
+						}
+					}
+				},
+				{
+					"path": "member/memberCard",
+					"style": {
+						"navigationBarTitleText": "会员卡-赫本酒吧",
+						"enablePullDownRefresh": true,
+						"usingComponents": {}
+					}
+				},
+				{
+					"path": "paycode/payCode",
+					"style": {
+						"navigationBarTitleText": "会员支付-赫本酒吧",
+						"enablePullDownRefresh": true,
+						"usingComponents": {
+							"van-icon": "/wxcomponents/vant/icon/index"
+						}
+					}
+				},
+				{
+					"path": "paycode/paySuccess",
+					"style": {
+						"navigationBarTitleText": "支付成功-赫本酒吧",
+						"usingComponents": {
+							"van-icon": "/wxcomponents/vant/icon/index"
+						}
+					}
+				},
+				{
+					"path": "recharge/recharge",
+					"style": {
+						"navigationBarTitleText": "会员充值-赫本酒吧",
+						"enablePullDownRefresh": true,
+						"usingComponents": {
+							"van-row": "/wxcomponents/vant/row/index",
+							"van-col": "/wxcomponents/vant/col/index"
+						}
+					}
+				},
+				{
+					"path": "recharge/rechargeRecord",
+					"style": {
+						"navigationBarTitleText": "充值记录-赫本酒吧"
+					}
+				},
+				{
+					"path": "consume/consumeRecord",
+					"style": {
+						"navigationBarTitleText": "消费记录-赫本酒吧"
+					}
+				},
+				{
+					"path": "comments/commentList",
+					"style": {
+						"navigationBarTitleText": "评价记录-赫本酒吧",
+						"usingComponents": {
+							"van-tab": "/wxcomponents/vant/tab/index",
+							"van-tabs": "/wxcomponents/vant/tabs/index"
+						}
+					}
+				},
+				{
+					"path": "integralRecord/integralRecord",
+					"style": {
+						"navigationBarTitleText": "积分记录-赫本酒吧"
+					}
+				},
+				{
+					"path": "drinkDeposit/drinkDeposit",
+					"style": {
+						"navigationBarTitleText": "酒水寄存-赫本酒吧"
+					}
+				},
+				{
+					"path": "userList/userList",
+					"style": {
+						"navigationBarTitleText": "赞赏评价-赫本酒吧",
+						"usingComponents": {
+							"van-row": "/wxcomponents/vant/row/index",
+							"van-col": "/wxcomponents/vant/col/index"
+						}
+					}
+				},
+				{
+					"path": "userList/customerList",
+					"style": {
+						"navigationBarTitleText": "会员列表-赫本酒吧"
+					}
+				},
+				{
+					"path": "userList/userDetail",
+					"style": {
+						"navigationBarTitleText": "会员详情-赫本酒吧"
+					}
+				},
+				{
+					"path": "reward/reward",
+					"style": {
+						"navigationBarTitleText": "赞赏-赫本酒吧",
+						"usingComponents": {
+							"van-row": "/wxcomponents/vant/row/index",
+							"van-col": "/wxcomponents/vant/col/index"
+						}
+					}
+				},
+				{
+					"path": "negative/negative2",
+					"style": {
+						"navigationBarTitleText": "评价留言-赫本酒吧"
+					}
+				},
+				{
+					"path": "negative/negative",
+					"style": {
+						"navigationBarTitleText": "评价留言-赫本酒吧"
+					}
+				}
+			]
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "赫本酒吧",
+		"navigationBarBackgroundColor": "#000",
+		"backgroundColor": "#000",
+		"backgroundTextStyle": "light"
+	},
+	"condition": { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [{
+			"name": "", //模式名称
+			"path": "", //启动页面，必选
+			"query": "" //启动参数，在页面的onLoad函数里面得到
+		}]
+	}
+}

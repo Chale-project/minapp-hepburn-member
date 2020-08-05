@@ -1,0 +1,85 @@
+page {
+    background-color: #f1f1f1;
+    color: #333;
+    font-size: 14px;
+    font-family: -apple-system-font, Helvetica Neue, Helvetica, sans-serif;
+}
+
+.pages {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+image {
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.icon-default {
+    width: 20px;
+    height: 20px;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.clearfix {
+    clear: both;
+    overflow: hidden;
+    _zoom: 1;
+}
+
+.ellipsis {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.ellipsis-2 {
+    display: -webkit-box;
+    overflow: hidden;
+    white-space: normal !important;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+button.but-default {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 14px;
+    padding-right: 14px;
+    box-sizing: border-box;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 2.8;
+    border-radius: 10em;
+    -webkit-tap-highlight-color: transparent;
+    overflow: hidden;
+    color: #000;
+    background-color: rgba(248, 248, 248, 1);
+}
+
+button[type=default].but-default{
+    background-color: rgba(0, 0, 0, 1);
+    color: #fff;
+}
+
+button[type=default].but-default-active{
+    opacity: .6;
+}
+
+button[disabled][type=default].but-default{
+    background-color: rgba(0, 0, 0, .6);
+    opacity: .6;
+}

@@ -1,2 +1,29 @@
 # minapp-hepburn-member
-会员管理系统，支持线上充值，线下核销，评价打赏等功能，小程序使用uni-app为基础一次性开发跨平台使用，可打包支持微信，支付宝等小程序。
+
+## Project setup
+```
+yarn install
+```
+
+### Compiles and hot-reloads for development
+```
+yarn run serve
+```
+
+### Compiles and minifies for production
+```
+yarn run build
+```
+
+### Run your tests
+```
+yarn run test
+```
+
+### Lints and fixes files
+```
+yarn run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
